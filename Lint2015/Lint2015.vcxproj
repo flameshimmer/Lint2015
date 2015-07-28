@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8E4301F-D045-4DFF-A4D1-7DB8BADC014D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Lint2015</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddBinary_Easy.cpp" />
+    <ClCompile Include="AddTwoNumbers_Easy.cpp" />
+    <ClCompile Include="Anagrams_Medium.cpp" />
+    <ClCompile Include="APlusBProblem_Medium.cpp" />
+    <ClCompile Include="AssignmentOperatorOverloading(CPlusPlusOnly)_Medium.cpp" />
+    <ClCompile Include="BackpackII_Medium.cpp" />
+    <ClCompile Include="Backpack_Medium.cpp" />
+    <ClCompile Include="BalancedBinaryTree_Medium.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockIII_Medium.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockII_Medium.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockIV_Hard.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStock_Medium.cpp" />
+    <ClCompile Include="BinaryRepresentation_Hard.cpp" />
+    <ClCompile Include="BinarySearchTreeIterator_Hard.cpp" />
+    <ClCompile Include="BinarySearch_Easy.cpp" />
+    <ClCompile Include="BinaryTreeInorderTraversal_Easy.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII_Medium.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal_Medium.cpp" />
+    <ClCompile Include="BinaryTreeMaximumPathSum_Medium.cpp" />
+    <ClCompile Include="BinaryTreePostorderTraversal_Easy.cpp" />
+    <ClCompile Include="BinaryTreePreorderTraversal_Easy.cpp" />
+    <ClCompile Include="BinaryTreeSerialization_Medium.cpp" />
+    <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal_Medium.cpp" />
+    <ClCompile Include="BuildingOutline_Hard.cpp" />
+    <ClCompile Include="Candy_Hard.cpp" />
+    <ClCompile Include="ClimbingStairs_Easy.cpp" />
+    <ClCompile Include="CloneGraph_Medium.cpp" />
+    <ClCompile Include="CoinsInALineIII_Hard.cpp" />
+    <ClCompile Include="CoinsInALineII_Medium.cpp" />
+    <ClCompile Include="CoinsInALine_Medium.cpp" />
+    <ClCompile Include="CombinationSumII_Medium.cpp" />
+    <ClCompile Include="CombinationSum_Medium.cpp" />
+    <ClCompile Include="Combinations_Medium.cpp" />
+    <ClCompile Include="CompareStrings_Easy.cpp" />
+    <ClCompile Include="ConstructBinaryTreefromInorderAndPostorderTraversal_Medium.cpp" />
+    <ClCompile Include="ConstructBinaryTreefromPreorderAndInorderTraversal_Medium.cpp" />
+    <ClCompile Include="ContainerWithMostWater_Medium.cpp" />
+    <ClCompile Include="ContinuousSubarraySumII_Medium.cpp" />
+    <ClCompile Include="ContinuousSubarraySum_Medium.cpp" />
+    <ClCompile Include="ConvertExpressionToPolishNotation_Hard.cpp" />
+    <ClCompile Include="ConvertExpressionToReversePolishNotation_Hard.cpp" />
+    <ClCompile Include="ConvertSortedArrayToBinarySearchTreeWithMinimalHeight_Easy.cpp" />
+    <ClCompile Include="ConvertSortedListToBinarySearchTree_Medium.cpp" />
+    <ClCompile Include="CopyBooks_Hard.cpp" />
+    <ClCompile Include="CopyListwithRandomPointer_Medium.cpp" />
+    <ClCompile Include="CountAndSay_Easy.cpp" />
+    <ClCompile Include="CountOfSmallerNumberbeforeitself_Hard.cpp" />
+    <ClCompile Include="CountOfSmallerNumber_Medium.cpp" />
+    <ClCompile Include="CountOneInBinary_Easy.cpp" />
+    <ClCompile Include="DataStreamMedian_Hard.cpp" />
+    <ClCompile Include="DeleteDigits_Medium.cpp" />
+    <ClCompile Include="DeleteNodeInTheMiddleOfSinglyLinkedList_Easy.cpp" />
+    <ClCompile Include="DigitCounts_Medium.cpp" />
+    <ClCompile Include="DistinctSubsequences_Medium.cpp" />
+    <ClCompile Include="DivideTwoIntegers_Medium.cpp" />
+    <ClCompile Include="EditDistance_Medium.cpp" />
+    <ClCompile Include="EvaluateReversePolishNotation_Medium.cpp" />
+    <ClCompile Include="ExpressionEvaluation_Hard.cpp" />
+    <ClCompile Include="ExpressionTreeBuild_Hard.cpp" />
+    <ClCompile Include="FastPower_Medium.cpp" />
+    <ClCompile Include="Fibonacci_Easy.cpp" />
+    <ClCompile Include="FindMinimumInRotatedSortedArrayII_Medium.cpp" />
+    <ClCompile Include="FindMinimumInRotatedSortedArray_Medium.cpp" />
+    <ClCompile Include="FindPeakElementII_Hard.cpp" />
+    <ClCompile Include="FindPeakElement_Medium.cpp" />
+    <ClCompile Include="FindTheConnectedComponentInTheUndirectedGraph_Easy.cpp" />
+    <ClCompile Include="FindTheMissingNumber_Medium.cpp" />
+    <ClCompile Include="FindTheWeakConnectedComponentInTheDirectedGraph_Medium.cpp" />
+    <ClCompile Include="FirstBadVersion_Medium.cpp" />
+    <ClCompile Include="FirstMissingPositive_Medium.cpp" />
+    <ClCompile Include="FizzBuzz_Easy.cpp" />
+    <ClCompile Include="FlipBits_Easy.cpp" />
+    <ClCompile Include="FourSum_Medium.cpp" />
+    <ClCompile Include="GasStation_Medium.cpp" />
+    <ClCompile Include="GrayCode_Medium.cpp" />
+    <ClCompile Include="HashFunction_Easy.cpp" />
+    <ClCompile Include="Heapify_Medium.cpp" />
+    <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="HouseRobber_Medium.cpp" />
+    <ClCompile Include="ImplementQueuebyTwoStacks_Medium.cpp" />
+    <ClCompile Include="InsertInterval_Easy.cpp" />
+    <ClCompile Include="InsertionSortList_Easy.cpp" />
+    <ClCompile Include="InsertNodeInABinarySearchTree_Easy.cpp" />
+    <ClCompile Include="IntegerToRoman_Medium.cpp" />
+    <ClCompile Include="InterleavingPositiveAndNegativeNumbers_Medium.cpp" />
+    <ClCompile Include="InterleavingString_Medium.cpp" />
+    <ClCompile Include="IntervalMinimumNumber_Medium.cpp" />
+    <ClCompile Include="IntervalSumII_Hard.cpp" />
+    <ClCompile Include="IntervalSum_Medium.cpp" />
+    <ClCompile Include="InvertBinaryTree_Easy.cpp" />
+    <ClCompile Include="JumpGameII_Medium.cpp" />
+    <ClCompile Include="JumpGame_Medium.cpp" />
+    <ClCompile Include="kSumII_Medium.cpp" />
+    <ClCompile Include="kSum_Hard.cpp" />
+    <ClCompile Include="KthLargestElement_Medium.cpp" />
+    <ClCompile Include="KthSmallestNumberInSortedMatrix_Medium.cpp" />
+    <ClCompile Include="LargestNumber_Medium.cpp" />
+    <ClCompile Include="LargestRectangleInHistogram_Hard.cpp" />
+    <ClCompile Include="LengthOfLastWord_Easy.cpp" />
+    <ClCompile Include="LinkedListCycleII_Hard.cpp" />
+    <ClCompile Include="LinkedListCycle_Medium.cpp" />
+    <ClCompile Include="Lint2015.cpp" />
+    <ClCompile Include="LongestCommonPrefix_Medium.cpp" />
+    <ClCompile Include="LongestCommonSubsequence_Medium.cpp" />
+    <ClCompile Include="LongestCommonSubstring_Medium.cpp" />
+    <ClCompile Include="LongestConsecutiveSequence_Medium.cpp" />
+    <ClCompile Include="LongestIncreasingContinuoussubsequenceII_Hard.cpp" />
+    <ClCompile Include="LongestIncreasingContinuoussubsequence_Easy.cpp" />
+    <ClCompile Include="LongestIncreasingSubsequence_Medium.cpp" />
+    <ClCompile Include="LongestPalindromicSubstring_Medium.cpp" />
+    <ClCompile Include="LongestSubstringwithAtMostKDistinctCharacters_Medium.cpp" />
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters_Medium.cpp" />
+    <ClCompile Include="LongestWords_Easy.cpp" />
+    <ClCompile Include="LowestCommonAncestor_Medium.cpp" />
+    <ClCompile Include="LRUCache_Hard.cpp" />
+    <ClCompile Include="MajorityNumberIII_Medium.cpp" />
+    <ClCompile Include="MajorityNumberII_Medium.cpp" />
+    <ClCompile Include="MajorityNumber_Easy.cpp" />
+    <ClCompile Include="MatrixZigzagTraversal_Easy.cpp" />
+    <ClCompile Include="MaximalSquare_Medium.cpp" />
+    <ClCompile Include="MaximumDepthOfBinaryTree_Easy.cpp" />
+    <ClCompile Include="MaximumGap_Hard.cpp" />
+    <ClCompile Include="MaximumProductSubarray_Medium.cpp" />
+    <ClCompile Include="MaximumSubarrayDifference_Medium.cpp" />
+    <ClCompile Include="MaximumSubarrayIII_Hard.cpp" />
+    <ClCompile Include="MaximumSubarrayII_Medium.cpp" />
+    <ClCompile Include="MaximumSubarray_Easy.cpp" />
+    <ClCompile Include="MaxPointsOnALine_Medium.cpp" />
+    <ClCompile Include="MaxTree_Hard.cpp" />
+    <ClCompile Include="MedianOftwoSortedArrays_Hard.cpp" />
+    <ClCompile Include="Median_Easy.cpp" />
+    <ClCompile Include="MergeIntervals_Easy.cpp" />
+    <ClCompile Include="MergekSortedLists_Medium.cpp" />
+    <ClCompile Include="MergeSortedArrayII_Easy.cpp" />
+    <ClCompile Include="MergeSortedArray_Easy.cpp" />
+    <ClCompile Include="MergeTwoSortedLists_Easy.cpp" />
+    <ClCompile Include="MinimumAdjustmentCost_Medium.cpp" />
+    <ClCompile Include="MinimumDepthOfBinaryTree_Easy.cpp" />
+    <ClCompile Include="MinimumPathSum_Easy.cpp" />
+    <ClCompile Include="MinimumSizeSubarraySum_Medium.cpp" />
+    <ClCompile Include="MinimumSubarray_Easy.cpp" />
+    <ClCompile Include="MinimumWindowSubstring_Medium.cpp" />
+    <ClCompile Include="MinStack_Medium.cpp" />
+    <ClCompile Include="NextPermutationII_Medium.cpp" />
+    <ClCompile Include="NextPermutation_Medium.cpp" />
+    <ClCompile Include="NthToLastNodeInList_Easy.cpp" />
+    <ClCompile Include="NumberOfAirplanesInTheSky_Medium.cpp" />
+    <ClCompile Include="NumberOfIslandsII_Hard.cpp" />
+    <ClCompile Include="NumberOfIslands_Easy.cpp" />
+    <ClCompile Include="NutsAndBoltsProblem_Medium.cpp" />
+    <ClCompile Include="N_QueensII_Medium.cpp" />
+    <ClCompile Include="N_Queens_Medium.cpp" />
+    <ClCompile Include="O1CheckPowerOfTwo_Easy.cpp" />
+    <ClCompile Include="PalindromePartitioningII_Medium.cpp" />
+    <ClCompile Include="PalindromePartitioning_Easy.cpp" />
+    <ClCompile Include="PartitionArraybyOddAndEven_Easy.cpp" />
+    <ClCompile Include="PartitionArray_Medium.cpp" />
+    <ClCompile Include="PartitionList_Easy.cpp" />
+    <ClCompile Include="PermutationIndexII_Medium.cpp" />
+    <ClCompile Include="PermutationIndex_Easy.cpp" />
+    <ClCompile Include="PermutationSequence_Medium.cpp" />
+    <ClCompile Include="PermutationsII_Medium.cpp" />
+    <ClCompile Include="Permutations_Medium.cpp" />
+    <ClCompile Include="PlusOne_Easy.cpp" />
+    <ClCompile Include="PostOfficeProblem_Hard.cpp" />
+    <ClCompile Include="PreviousPermuation_Medium.cpp" />
+    <ClCompile Include="PrintNumbersbyRecursion_Medium.cpp" />
+    <ClCompile Include="ProductOfArrayExcludeItself_Easy.cpp" />
+    <ClCompile Include="RecoverRotatedSortedArray_Easy.cpp" />
+    <ClCompile Include="RegularExpressionMatching_Hard.cpp" />
+    <ClCompile Include="Rehashing_Medium.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedArrayII_Easy.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedArray_Easy.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedListII_Medium.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedList_Easy.cpp" />
+    <ClCompile Include="RemoveElement_Easy.cpp" />
+    <ClCompile Include="RemoveNodeInBinarySearchTree_Hard.cpp" />
+    <ClCompile Include="RemoveNthNodeFromEndOfList_Easy.cpp" />
+    <ClCompile Include="ReorderList_Medium.cpp" />
+    <ClCompile Include="ReverseInteger_Easy.cpp" />
+    <ClCompile Include="ReverseLinkedListII_Medium.cpp" />
+    <ClCompile Include="ReverseLinkedList_Easy.cpp" />
+    <ClCompile Include="ReverseWordsInAString_Easy.cpp" />
+    <ClCompile Include="RomanToInteger_Medium.cpp" />
+    <ClCompile Include="RotateImage_Medium.cpp" />
+    <ClCompile Include="RotateList_Medium.cpp" />
+    <ClCompile Include="RotateString_Easy.cpp" />
+    <ClCompile Include="RouteBetweenTwoNodesInGraph_Medium.cpp" />
+    <ClCompile Include="ScrambleString_Hard.cpp" />
+    <ClCompile Include="SearchATwoDMatrixII_Medium.cpp" />
+    <ClCompile Include="SearchATwoDMatrix_Easy.cpp" />
+    <ClCompile Include="SearchforARange_Medium.cpp" />
+    <ClCompile Include="SearchInRotatedSortedArrayII_Medium.cpp" />
+    <ClCompile Include="SearchInRotatedSortedArray_Medium.cpp" />
+    <ClCompile Include="SearchInsertPosition_Easy.cpp" />
+    <ClCompile Include="SearchRangeInBinarySearchTree_Medium.cpp" />
+    <ClCompile Include="SegmentTreeBuild_Medium.cpp" />
+    <ClCompile Include="SegmentTreeModify_Medium.cpp" />
+    <ClCompile Include="SegmentTreeQueryII_Medium.cpp" />
+    <ClCompile Include="SegmentTreeQuery_Medium.cpp" />
+    <ClCompile Include="SetMatrixZeroes_Medium.cpp" />
+    <ClCompile Include="SimplifyPath_Medium.cpp" />
+    <ClCompile Include="SingleNumberIII_Medium.cpp" />
+    <ClCompile Include="SingleNumberII_Medium.cpp" />
+    <ClCompile Include="SingleNumber_Easy.cpp" />
+    <ClCompile Include="Singleton_Easy.cpp" />
+    <ClCompile Include="SlidingWindowMaximum_Hard.cpp" />
+    <ClCompile Include="SlidingWindowMedian_Hard.cpp" />
+    <ClCompile Include="SortColorsII_Medium.cpp" />
+    <ClCompile Include="SortColors_Medium.cpp" />
+    <ClCompile Include="SortLettersbyCase_Medium.cpp" />
+    <ClCompile Include="SortList_Medium.cpp" />
+    <ClCompile Include="SpaceReplacement_Easy.cpp" />
+    <ClCompile Include="Sqrt(x)_Easy.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StringToInteger(atoi)_Hard.cpp" />
+    <ClCompile Include="strStr_Easy.cpp" />
+    <ClCompile Include="SubarraySumClosest_Medium.cpp" />
+    <ClCompile Include="SubarraySumII_Hard.cpp" />
+    <ClCompile Include="SubarraySum_Easy.cpp" />
+    <ClCompile Include="SubmatrixSum_Medium.cpp" />
+    <ClCompile Include="SubsetsII_Medium.cpp" />
+    <ClCompile Include="Subsets_Medium.cpp" />
+    <ClCompile Include="Subtree_Easy.cpp" />
+    <ClCompile Include="TheSmallestDifference_Medium.cpp" />
+    <ClCompile Include="ThreeSumClosest_Medium.cpp" />
+    <ClCompile Include="ThreeSum_Medium.cpp" />
+    <ClCompile Include="TopologicalSorting_Medium.cpp" />
+    <ClCompile Include="TrailingZeros_Easy.cpp" />
+    <ClCompile Include="TrappingRainWaterII_Hard.cpp" />
+    <ClCompile Include="TrappingRainWater_Medium.cpp" />
+    <ClCompile Include="TriangleCount_Hard.cpp" />
+    <ClCompile Include="Triangle_Easy.cpp" />
+    <ClCompile Include="TwoStringsAreAnagrams_Easy.cpp" />
+    <ClCompile Include="TwoSum_Medium.cpp" />
+    <ClCompile Include="UglyNumber_Medium.cpp" />
+    <ClCompile Include="UniqueBinarySearchTreesII_Medium.cpp" />
+    <ClCompile Include="UniqueBinarySearchTrees_Medium.cpp" />
+    <ClCompile Include="UniqueCharacters_Easy.cpp" />
+    <ClCompile Include="UniquePathsII_Easy.cpp" />
+    <ClCompile Include="UniquePaths_Easy.cpp" />
+    <ClCompile Include="UpdateBits_Medium.cpp" />
+    <ClCompile Include="ValidateBinarySearchTree_Medium.cpp" />
+    <ClCompile Include="ValidNumber_Hard.cpp" />
+    <ClCompile Include="ValidPalindrome_Easy.cpp" />
+    <ClCompile Include="ValidParentheses_Easy.cpp" />
+    <ClCompile Include="ValidSudoku_Easy.cpp" />
+    <ClCompile Include="WildcardMatching_Hard.cpp" />
+    <ClCompile Include="WoodCut_Medium.cpp" />
+    <ClCompile Include="WordBreak_Medium.cpp" />
+    <ClCompile Include="WordLadderII_Hard.cpp" />
+    <ClCompile Include="WordLadder_Medium.cpp" />
+    <ClCompile Include="WordSearchII_Hard.cpp" />
+    <ClCompile Include="WordSearch_Medium.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
