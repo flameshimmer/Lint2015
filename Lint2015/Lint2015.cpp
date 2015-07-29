@@ -114,11 +114,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 //LintSolution1::Backpack_Medium::Main();
 //LintSolution1::BackpackII_Medium::Main();
-LintSolution1::BinaryRepresentation_Hard::Main();
-//LintSolution1::BinarySearchTreeIterator_Hard::Main();
+//LintSolution1::BinaryRepresentation_Hard::Main();
+//LintSolution1::BinarySearchTreeIterator_Hard::Main();-------------------------> need to remember how to do this in O(1) space
 //LintSolution1::BinaryTreeSerialization_Medium::Main();
 //LintSolution1::CoinsInALine_Medium::Main();
-//LintSolution1::CoinsInALineII_Medium::Main();
+LintSolution1::CoinsInALineII_Medium::Main();
 //LintSolution1::CoinsInALineIII_Hard::Main();
 
 	// Runtime end marker

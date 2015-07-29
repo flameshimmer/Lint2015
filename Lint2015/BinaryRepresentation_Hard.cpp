@@ -12,11 +12,11 @@
 
 namespace LintSolution1
 {
-    namespace BinaryRepresentation_Hard
-    {
-		int stringToInt(string s)
+	namespace BinaryRepresentation_Hard
+	{
+		long long getVal(string s)
 		{
-			int result = 0;
+			long long result = 0;
 			for (char c : s)
 			{
 				result = result * 10 + c - '0';
@@ -26,56 +26,57 @@ namespace LintSolution1
 
 		string binaryRepresentation(string s) {
 			int len = s.size();
+			if (len == 0) { return ""; }
+
 			int start = 0;
-			bool isNeg = s[0] == '-';
-			if (isNeg) { start++; }
+			int end = start + 1;
+			while (end < len && s[end] != '.') { end++; }
+			end--;
 
-			int cur = start+1;
-			while (cur < len && s[cur] != '.') { cur++; }
-			cur--;
-
-			string before = s.substr(start, cur - start + 1);
-			string after = s.substr(cur+2);
+			string before = s.substr(start, end - start + 1);
+			string after = s.substr(end + 2);
 
 			string r1;
-			if (before.size() > 0)
+			if (!before.empty())
 			{
-				int val = stringToInt(before);
+				long long val = getVal(before);
 				while (val)
 				{
 					r1 = to_string(val % 2) + r1;
 					val /= 2;
 				}
 			}
-
+			
 			string r2;
-			if (after.size() > 0)
+			if (!after.empty())
 			{
-				double val = stringToInt(after);
-				for (int i = 0; i < after.size(); i++)
-				{
-					val /= 10;
-				}
-				int i = 0; 
+				double val = getVal(after);
+				for (int i = 0; i < after.size(); i++) { val /= 10; }
+
+				int i = 0;
 				while (val)
 				{
-					r2 += (val * 2) >= 1 ? "1" : "0";
-					val = val * 2 - 1;
+					if (val * 2 >= 1) { r2 += "1"; val = val * 2 - 1; }
+					else { r2 += "0"; val = val * 2; }
 					i++;
-					if (i == 32) { return "ERROR"; }
+					if (i>32) { return "ERROR"; }
 				}
 			}
-			if (r1.empty()) { r1 == "0"; }
-			if (r2.empty()) { r2 == "0"; }
-			return r1 + "." + r2;
+
+			string result = r1.empty() ? "0" : r1;
+			if (!r2.empty()) { result += "." + r2; }
+			return result;
 		}
 
-        void Main()
-        {
+		void Main()
+		{
+
+			print(binaryRepresentation("4096.6435546875"));
+			print(binaryRepresentation("6.125"));
+			print(binaryRepresentation("1.0"));
 			print(binaryRepresentation("3.5"));
 			print(binaryRepresentation("3.72"));
-        }
-    }
+		}
+	}
 }
-   
-    
+
