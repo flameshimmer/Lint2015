@@ -5,23 +5,12 @@
 
 using namespace std;
 typedef std::numeric_limits< double > dbl;
-/*================ Total question count:251 ================*/
+/*================ Total question count:251, unique questions compared to LeetCode: 102 ================*/
 int _tmain(int argc, _TCHAR* argv[])
 {
     // Runtime begin marker start
     clock_t begin = clock();
 
-	/*================ unique questions compared to LeetCode: 102 ================*/
-	//LintSolution1::APlusBProblem_Medium::Main();
-	//LintSolution1::AssignmentOperatorOverloading(CPlusPlusOnly)_Medium::Main();
-	//LintSolution1::Backpack_Medium::Main();
-	//LintSolution1::BackpackII_Medium::Main();
-	//LintSolution1::BinaryRepresentation_Hard::Main();
-	//LintSolution1::BinarySearchTreeIterator_Hard::Main();
-	//LintSolution1::BinaryTreeSerialization_Medium::Main();
-	//LintSolution1::CoinsInALine_Medium::Main();
-	//LintSolution1::CoinsInALineII_Medium::Main();
-	//LintSolution1::CoinsInALineIII_Hard::Main();
 	//LintSolution1::CompareStrings_Easy::Main();
 	//LintSolution1::ContinuousSubarraySum_Medium::Main();
 	//LintSolution1::ContinuousSubarraySumII_Medium::Main();
@@ -114,6 +103,20 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::UglyNumber_Medium::Main();
 	//LintSolution1::UpdateBits_Medium::Main();
 	//LintSolution1::WoodCut_Medium::Main();
+
+
+// 7/28/2015
+	//LintSolution1::AssignmentOperatorOverloading(CPlusPlusOnly)_Medium::Main();
+LintSolution1::APlusBProblem_Medium::Main();
+
+//LintSolution1::Backpack_Medium::Main();
+//LintSolution1::BackpackII_Medium::Main();
+//LintSolution1::BinaryRepresentation_Hard::Main();
+//LintSolution1::BinarySearchTreeIterator_Hard::Main();
+//LintSolution1::BinaryTreeSerialization_Medium::Main();
+//LintSolution1::CoinsInALine_Medium::Main();
+//LintSolution1::CoinsInALineII_Medium::Main();
+//LintSolution1::CoinsInALineIII_Hard::Main();
 
 	// Runtime end marker
     clock_t end = clock();

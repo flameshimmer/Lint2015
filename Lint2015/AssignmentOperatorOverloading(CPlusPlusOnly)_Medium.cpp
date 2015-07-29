@@ -22,34 +22,33 @@ namespace LintSolution1
 {
     namespace AssignmentOperatorOverloadingCPlusPlusOnly_Medium
     {
-		class Solution
-		{
-			char* m_pData;
-			Solution() :m_pData(NULL){}
-			Solution(char * pData)
-			{
-				m_pData = pData;
-			}
+		//class Solution
+		//{
+		//public:
+		//	char* m_data;
+		//	Solution() : m_data(NULL) {}
+		//	Solution(char* data)
+		//	{
+		//		m_data = data;
+		//	}
 
-			Solution operator=(const Solution& obj)
-			{
-				if (this == &obj) { return *this; }
+		//	Solution operator=(const Solution& obj)
+		//	{
+		//		if (this == &obj) { return *this; }
+		//		if (m_data)
+		//		{
+		//			delete[] m_data;
+		//			m_data = NULL;
+		//		}
 
-				if (m_pData)
-				{
-					delete[] m_pData;
-					m_pData = NULL;
-				}
-
-				if (obj.m_pData)
-				{
-					m_pData = new char[strlen(obj.m_pData) + 1];
-					strcpy(m_pData, obj.m_pData);
-				}
-				return *this;
-			}
-		};
-     
+		//		if (obj.m_data)
+		//		{
+		//			m_data = new char[strlen(obj.m_data) + 1];
+		//			strcpy(m_data, obj.m_data);
+		//		}
+		//		return *this;
+		//	}
+		//};
      
         void Main()
         {
