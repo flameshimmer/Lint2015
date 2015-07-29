@@ -31,24 +31,33 @@ namespace LintSolution1
 		* @return: The sum of a and b
 		*/
 		int aplusb(int a, int b) {
-
 			int carry = 0;
-			int a2 = a;
-			int b2 = b;
-			int result = 0;
-			if (a2 < 0) { a2 = ~a2 + 1; }
-			if (b2 < 0) { b2 = ~b2 + 1; }
 			int i = 0;
-			while (i<32 && (a2 || b2 || carry))
+			int result = 0;
+			while (i < 32 && (a || b || carry))
 			{
-				int sum = (a2 & 1) + (b2 & 1) + carry;
+				int sum = (a & 1) + (b & 1) + carry;
 				carry = sum / 2;
 				result |= (sum % 2) << i;
-				a2 >>= 1;
-				b2 >>= 1;
+				a >>= 1;
+				b >>= 1;
 				i++;
 			}
 			return result;
+		}
+
+		namespace other
+		{
+			int aplusb(int a, int b)
+			{
+				while (b)
+				{
+					int carry = a&b;
+					a = a^b;
+					b = carry << 1;
+				}
+				return a;
+			}
 		}
      
      
@@ -56,6 +65,9 @@ namespace LintSolution1
         {
 			print(aplusb(1, 2));
 			print(aplusb(1, -2));
+
+			print(other::aplusb(1, 2));
+			print(other::aplusb(1, -2));
         }
     }
 }

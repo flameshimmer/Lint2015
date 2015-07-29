@@ -107,11 +107,14 @@ int _tmain(int argc, _TCHAR* argv[])
 
 // 7/28/2015
 	//LintSolution1::AssignmentOperatorOverloading(CPlusPlusOnly)_Medium::Main();
-LintSolution1::APlusBProblem_Medium::Main();
+
+
+// 7/29/2015
+//LintSolution1::APlusBProblem_Medium::Main(); -------------> still have some questions on the second solve
 
 //LintSolution1::Backpack_Medium::Main();
 //LintSolution1::BackpackII_Medium::Main();
-//LintSolution1::BinaryRepresentation_Hard::Main();
+LintSolution1::BinaryRepresentation_Hard::Main();
 //LintSolution1::BinarySearchTreeIterator_Hard::Main();
 //LintSolution1::BinaryTreeSerialization_Medium::Main();
 //LintSolution1::CoinsInALine_Medium::Main();
