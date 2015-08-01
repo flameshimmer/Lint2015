@@ -11,16 +11,6 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-	//LintSolution1::CompareStrings_Easy::Main();
-	//LintSolution1::ContinuousSubarraySum_Medium::Main();
-	//LintSolution1::ContinuousSubarraySumII_Medium::Main();
-	//LintSolution1::ConvertExpressionToPolishNotation_Hard::Main();
-	//LintSolution1::ConvertExpressionToReversePolishNotation_Hard::Main();
-	//LintSolution1::CopyBooks_Hard::Main();
-	//LintSolution1::CountOfSmallerNumber_Medium::Main();
-	//LintSolution1::CountOfSmallerNumberbeforeitself_Hard::Main();
-	//LintSolution1::DataStreamMedian_Hard::Main();
-	//LintSolution1::DeleteDigits_Medium::Main();
 	//LintSolution1::DivideTwoIntegers_Medium::Main();
 	//LintSolution1::EvaluateReversePolishNotation_Medium::Main();
 	//LintSolution1::ExpressionEvaluation_Hard::Main();
@@ -111,15 +101,28 @@ int _tmain(int argc, _TCHAR* argv[])
 
 // 7/29/2015
 //LintSolution1::APlusBProblem_Medium::Main(); -------------> still have some questions on the second solve
-
 //LintSolution1::Backpack_Medium::Main();
 //LintSolution1::BackpackII_Medium::Main();
 //LintSolution1::BinaryRepresentation_Hard::Main();
 //LintSolution1::BinarySearchTreeIterator_Hard::Main();-------------------------> need to remember how to do this in O(1) space
 //LintSolution1::BinaryTreeSerialization_Medium::Main();
 //LintSolution1::CoinsInALine_Medium::Main();
-LintSolution1::CoinsInALineII_Medium::Main();
+//LintSolution1::CoinsInALineII_Medium::Main();
 //LintSolution1::CoinsInALineIII_Hard::Main();
+
+// 7/31/2015
+	//LintSolution1::CompareStrings_Easy::Main();
+
+// 8/1/2015
+//LintSolution1::ContinuousSubarraySum_Medium::Main();
+LintSolution1::ContinuousSubarraySumII_Medium::Main();
+//LintSolution1::ConvertExpressionToPolishNotation_Hard::Main();
+//LintSolution1::ConvertExpressionToReversePolishNotation_Hard::Main();
+//LintSolution1::CopyBooks_Hard::Main();
+//LintSolution1::CountOfSmallerNumber_Medium::Main();
+//LintSolution1::CountOfSmallerNumberbeforeitself_Hard::Main();
+//LintSolution1::DataStreamMedian_Hard::Main();
+//LintSolution1::DeleteDigits_Medium::Main();
 
 	// Runtime end marker
     clock_t end = clock();
