@@ -18,10 +18,9 @@ namespace LintSolution1
 			int len = A.size();
 			if (len == 0) { return result; }
 
-			int i = 0;
 			int sum = 0;
 			int maxSum = INT_MIN;
-			for (int j = 0; j < len; j++)
+			for (int i = 0, j = 0; j < len; j++)
 			{
 				if (sum < 0)
 				{
@@ -32,7 +31,7 @@ namespace LintSolution1
 				sum += A[j];
 				if (sum > maxSum)
 				{
-					maxSum = sum;
+					sum = maxSum;
 					result[0] = i;
 					result[1] = j;
 				}
