@@ -11,17 +11,6 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-
-	//LintSolution1::HashFunction_Easy::Main();
-	//LintSolution1::Heapify_Medium::Main();
-	//LintSolution1::InsertNodeInABinarySearchTree_Easy::Main();
-	//LintSolution1::InterleavingPositiveAndNegativeNumbers_Medium::Main();
-	//LintSolution1::IntervalMinimumNumber_Medium::Main();
-	//LintSolution1::IntervalSum_Medium::Main();
-	//LintSolution1::IntervalSumII_Hard::Main();
-	//LintSolution1::kSum_Hard::Main();
-	//LintSolution1::kSumII_Medium::Main();
-	//LintSolution1::KthLargestElement_Medium::Main();
 	//LintSolution1::KthSmallestNumberInSortedMatrix_Medium::Main();
 	//LintSolution1::LongestCommonSubsequence_Medium::Main();
 	//LintSolution1::LongestCommonSubstring_Medium::Main();
@@ -116,16 +105,29 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::ExpressionTreeBuild_Hard::Main();
 
 // 8/7/2015
-//LintSolution1::FastPower_Medium::Main();
-//LintSolution1::FindMinimumInRotatedSortedArray_Medium::Main();
-//LintSolution1::FindMinimumInRotatedSortedArrayII_Medium::Main();
-//LintSolution1::FindPeakElement_Medium::Main();
-//LintSolution1::FindPeakElementII_Hard::Main();
-//LintSolution1::FindTheConnectedComponentInTheUndirectedGraph_Easy::Main();
-//LintSolution1::FindTheWeakConnectedComponentInTheDirectedGraph_Medium::Main();
-//LintSolution1::FirstBadVersion_Medium::Main();
-//LintSolution1::FizzBuzz_Easy::Main();
-//LintSolution1::FlipBits_Easy::Main();
+	//LintSolution1::FastPower_Medium::Main();
+	//LintSolution1::FindMinimumInRotatedSortedArray_Medium::Main();
+	//LintSolution1::FindMinimumInRotatedSortedArrayII_Medium::Main();
+	//LintSolution1::FindPeakElement_Medium::Main();
+	//LintSolution1::FindPeakElementII_Hard::Main();
+	//LintSolution1::FindTheConnectedComponentInTheUndirectedGraph_Easy::Main();
+	//LintSolution1::FindTheWeakConnectedComponentInTheDirectedGraph_Medium::Main();
+	//LintSolution1::FirstBadVersion_Medium::Main();
+	//LintSolution1::FizzBuzz_Easy::Main();
+	//LintSolution1::FlipBits_Easy::Main();
+
+
+// 8/8/2015
+//LintSolution1::HashFunction_Easy::Main();
+//LintSolution1::Heapify_Medium::Main();
+//LintSolution1::InsertNodeInABinarySearchTree_Easy::Main();
+//LintSolution1::InterleavingPositiveAndNegativeNumbers_Medium::Main();
+//LintSolution1::IntervalMinimumNumber_Medium::Main();
+//LintSolution1::IntervalSum_Medium::Main();
+//LintSolution1::IntervalSumII_Hard::Main();
+//LintSolution1::kSum_Hard::Main();
+//LintSolution1::kSumII_Medium::Main();
+//LintSolution1::KthLargestElement_Medium::Main();
 
 
 	// Runtime end marker
