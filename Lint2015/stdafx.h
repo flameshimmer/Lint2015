@@ -13,6 +13,7 @@
 #include <complex> // for math abs
 #include <queue> // for priority queue
 #include <utility> // for make_pair
+#include <functional> // for priority queue comparator function
 
 #include <windows.h>
 #include <vector>
@@ -103,6 +104,7 @@ struct TreeLinkNode {
 	TreeLinkNode *next;
 	TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
 };
+
 
 //Definition for undirected graph.
 struct UndirectedGraphNode {

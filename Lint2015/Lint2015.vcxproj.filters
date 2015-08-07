@@ -266,9 +266,6 @@
     <ClCompile Include="Heapify_Medium.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="Helpers.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
     <ClCompile Include="HouseRobber_Medium.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
@@ -790,6 +787,9 @@
     </ClCompile>
     <ClCompile Include="WordSearchII_Hard.cpp">
       <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

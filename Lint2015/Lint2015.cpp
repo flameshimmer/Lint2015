@@ -11,20 +11,7 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-	
-	//LintSolution1::EvaluateReversePolishNotation_Medium::Main();
-	//LintSolution1::ExpressionEvaluation_Hard::Main();
-	//LintSolution1::ExpressionTreeBuild_Hard::Main();
-	//LintSolution1::FastPower_Medium::Main();
-	//LintSolution1::FindMinimumInRotatedSortedArray_Medium::Main();
-	//LintSolution1::FindMinimumInRotatedSortedArrayII_Medium::Main();
-	//LintSolution1::FindPeakElement_Medium::Main();
-	//LintSolution1::FindPeakElementII_Hard::Main();
-	//LintSolution1::FindTheConnectedComponentInTheUndirectedGraph_Easy::Main();
-	//LintSolution1::FindTheWeakConnectedComponentInTheDirectedGraph_Medium::Main();
-	//LintSolution1::FirstBadVersion_Medium::Main();
-	//LintSolution1::FizzBuzz_Easy::Main();
-	//LintSolution1::FlipBits_Easy::Main();
+
 	//LintSolution1::HashFunction_Easy::Main();
 	//LintSolution1::Heapify_Medium::Main();
 	//LintSolution1::InsertNodeInABinarySearchTree_Easy::Main();
@@ -109,24 +96,36 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::CompareStrings_Easy::Main();
 
 // 8/5/2015
-//LintSolution1::ContinuousSubarraySum_Medium::Main();
-//LintSolution1::ContinuousSubarraySumII_Medium::Main();
-//LintSolution1::ConvertExpressionToPolishNotation_Hard::Main();
-//LintSolution1::ConvertExpressionToReversePolishNotation_Hard::Main();
-//LintSolution1::CopyBooks_Hard::Main();
-
-LintSolution1::DeleteDigits_Medium::Main();
-//LintSolution1::DataStreamMedian_Hard::Main();
-
-
+	//LintSolution1::ContinuousSubarraySum_Medium::Main();
+	//LintSolution1::ContinuousSubarraySumII_Medium::Main();
+	//LintSolution1::ConvertExpressionToPolishNotation_Hard::Main();
+	//LintSolution1::ConvertExpressionToReversePolishNotation_Hard::Main();
+	//LintSolution1::CopyBooks_Hard::Main();
+	//LintSolution1::DeleteDigits_Medium::Main();
 
 // 8/6/2015
-//LintSolution1::SegmentTreeBuild_Medium::Main();
-//LintSolution1::SegmentTreeModify_Medium::Main();
-//LintSolution1::SegmentTreeQuery_Medium::Main();
-//LintSolution1::SegmentTreeQueryII_Medium::Main();
-//LintSolution1::CountOfSmallerNumber_Medium::Main();
-//LintSolution1::CountOfSmallerNumberbeforeitself_Hard::Main();
+	//LintSolution1::SegmentTreeBuild_Medium::Main();
+	//LintSolution1::SegmentTreeQuery_Medium::Main();
+	//LintSolution1::SegmentTreeQueryII_Medium::Main();
+	//LintSolution1::SegmentTreeModify_Medium::Main();
+	//LintSolution1::CountOfSmallerNumber_Medium::Main();
+	//LintSolution1::CountOfSmallerNumberbeforeitself_Hard::Main();
+	//LintSolution1::DataStreamMedian_Hard::Main();
+	//LintSolution1::EvaluateReversePolishNotation_Medium::Main();
+	//LintSolution1::ExpressionEvaluation_Hard::Main();
+	//LintSolution1::ExpressionTreeBuild_Hard::Main();
+
+// 8/7/2015
+//LintSolution1::FastPower_Medium::Main();
+//LintSolution1::FindMinimumInRotatedSortedArray_Medium::Main();
+//LintSolution1::FindMinimumInRotatedSortedArrayII_Medium::Main();
+//LintSolution1::FindPeakElement_Medium::Main();
+//LintSolution1::FindPeakElementII_Hard::Main();
+//LintSolution1::FindTheConnectedComponentInTheUndirectedGraph_Easy::Main();
+//LintSolution1::FindTheWeakConnectedComponentInTheDirectedGraph_Medium::Main();
+//LintSolution1::FirstBadVersion_Medium::Main();
+//LintSolution1::FizzBuzz_Easy::Main();
+//LintSolution1::FlipBits_Easy::Main();
 
 
 	// Runtime end marker
