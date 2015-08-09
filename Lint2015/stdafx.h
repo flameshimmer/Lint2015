@@ -138,6 +138,10 @@ void print(int input[], int len);
 void print(vector<int> input);
 void print(int input);
 
+// long long
+void print(long long input);
+void print(vector<long long> input);
+
 // unsigned int
 void print(uint32_t input);
 

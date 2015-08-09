@@ -11,16 +11,6 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-	//LintSolution1::KthSmallestNumberInSortedMatrix_Medium::Main();
-	//LintSolution1::LongestCommonSubsequence_Medium::Main();
-	//LintSolution1::LongestCommonSubstring_Medium::Main();
-	//LintSolution1::LongestConsecutiveSequence_Medium::Main();
-	//LintSolution1::LongestIncreasingContinuoussubsequence_Easy::Main();
-	//LintSolution1::LongestIncreasingContinuoussubsequenceII_Hard::Main();
-	//LintSolution1::LongestIncreasingSubsequence_Medium::Main();
-	//LintSolution1::MajorityNumberIII_Medium::Main();
-	//LintSolution1::MatrixZigzagTraversal_Easy::Main();
-	//LintSolution1::MaxTree_Hard::Main();
 	//LintSolution1::MaximumSubarray_Easy::Main();
 	//LintSolution1::MaximumSubarrayDifference_Medium::Main();
 	//LintSolution1::MaximumSubarrayII_Medium::Main();
@@ -118,16 +108,28 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 // 8/8/2015
-//LintSolution1::HashFunction_Easy::Main();
-//LintSolution1::Heapify_Medium::Main();
-//LintSolution1::InsertNodeInABinarySearchTree_Easy::Main();
-//LintSolution1::InterleavingPositiveAndNegativeNumbers_Medium::Main();
-//LintSolution1::IntervalMinimumNumber_Medium::Main();
-//LintSolution1::IntervalSum_Medium::Main();
-//LintSolution1::IntervalSumII_Hard::Main();
-//LintSolution1::kSum_Hard::Main();
-//LintSolution1::kSumII_Medium::Main();
-//LintSolution1::KthLargestElement_Medium::Main();
+	//LintSolution1::HashFunction_Easy::Main();
+	//LintSolution1::Heapify_Medium::Main();
+	//LintSolution1::InsertNodeInABinarySearchTree_Easy::Main();
+	//LintSolution1::InterleavingPositiveAndNegativeNumbers_Medium::Main();
+	//LintSolution1::IntervalMinimumNumber_Medium::Main();
+	//LintSolution1::IntervalSum_Medium::Main();
+	//LintSolution1::IntervalSumII_Hard::Main();
+	//LintSolution1::kSum_Hard::Main();
+	//LintSolution1::kSumII_Medium::Main();
+	//LintSolution1::KthLargestElement_Medium::Main();
+
+// 8/9/2015
+//LintSolution1::KthSmallestNumberInSortedMatrix_Medium::Main();
+//LintSolution1::LongestCommonSubsequence_Medium::Main();
+//LintSolution1::LongestCommonSubstring_Medium::Main();
+//LintSolution1::LongestConsecutiveSequence_Medium::Main();
+//LintSolution1::LongestIncreasingContinuoussubsequence_Easy::Main();
+//LintSolution1::LongestIncreasingContinuoussubsequenceII_Hard::Main();
+//LintSolution1::LongestIncreasingSubsequence_Medium::Main();
+//LintSolution1::MajorityNumberIII_Medium::Main();
+//LintSolution1::MatrixZigzagTraversal_Easy::Main();
+//LintSolution1::MaxTree_Hard::Main();
 
 
 	// Runtime end marker

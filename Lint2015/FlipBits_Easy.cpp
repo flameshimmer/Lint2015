@@ -12,25 +12,15 @@ namespace LintSolution1
 	namespace FlipBits_Easy
 	{
 
-		/**
-		*@param a, b: Two integer
-		*return: An integer
-		*/
 		int bitSwapRequired(int a, int b) {
-		}
-
-		namespace CountXORBits
-		{
-			int bitSwapRequired(int a, int b) {
-				int c = a^b;
-				int count = 0;
-				while (c)
-				{
-					count++;
-					c &= c - 1;
-				}
-				return count;
+			int c = a^b;
+			int count = 0;
+			while (c)
+			{
+				count++;
+				c &= c - 1;
 			}
+			return count;
 		}
 		
 		namespace CastingToUnsigned
