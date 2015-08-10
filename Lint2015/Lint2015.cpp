@@ -11,16 +11,6 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-	//LintSolution1::MaximumSubarray_Easy::Main();
-	//LintSolution1::MaximumSubarrayDifference_Medium::Main();
-	//LintSolution1::MaximumSubarrayII_Medium::Main();
-	//LintSolution1::MaximumSubarrayIII_Hard::Main();
-	//LintSolution1::MergeSortedArrayII_Easy::Main();
-	//LintSolution1::MinimumAdjustmentCost_Medium::Main();
-	//LintSolution1::MinimumSizeSubarraySum_Medium::Main();
-	//LintSolution1::MinimumSubarray_Easy::Main();
-	//LintSolution1::NextPermutation_Medium::Main();
-	//LintSolution1::NextPermutationII_Medium::Main();
 	//LintSolution1::NumberOfAirplanesInTheSky_Medium::Main();
 	//LintSolution1::NumberOfIslandsII_Hard::Main();
 	//LintSolution1::NutsAndBoltsProblem_Medium::Main();
@@ -120,16 +110,28 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::KthLargestElement_Medium::Main();
 
 // 8/9/2015
-//LintSolution1::KthSmallestNumberInSortedMatrix_Medium::Main();
-//LintSolution1::LongestCommonSubsequence_Medium::Main();
-//LintSolution1::LongestCommonSubstring_Medium::Main();
-//LintSolution1::LongestConsecutiveSequence_Medium::Main();
-//LintSolution1::LongestIncreasingContinuoussubsequence_Easy::Main();
-//LintSolution1::LongestIncreasingContinuoussubsequenceII_Hard::Main();
-//LintSolution1::LongestIncreasingSubsequence_Medium::Main();
-//LintSolution1::MajorityNumberIII_Medium::Main();
-//LintSolution1::MatrixZigzagTraversal_Easy::Main();
-//LintSolution1::MaxTree_Hard::Main();
+	//LintSolution1::KthSmallestNumberInSortedMatrix_Medium::Main();
+	//LintSolution1::LongestCommonSubsequence_Medium::Main();
+	//LintSolution1::LongestCommonSubstring_Medium::Main();
+	//LintSolution1::LongestConsecutiveSequence_Medium::Main();
+	//LintSolution1::LongestIncreasingContinuoussubsequence_Easy::Main();
+	//LintSolution1::LongestIncreasingContinuoussubsequenceII_Hard::Main();
+	//LintSolution1::LongestIncreasingSubsequence_Medium::Main();
+	//LintSolution1::MajorityNumberIII_Medium::Main();
+	//LintSolution1::MatrixZigzagTraversal_Easy::Main();
+	//LintSolution1::MaxTree_Hard::Main();
+
+// 8/10/2015
+//LintSolution1::MaximumSubarray_Easy::Main();
+//LintSolution1::MaximumSubarrayDifference_Medium::Main();
+//LintSolution1::MaximumSubarrayII_Medium::Main();
+//LintSolution1::MaximumSubarrayIII_Hard::Main();
+//LintSolution1::MergeSortedArrayII_Easy::Main();
+//LintSolution1::MinimumAdjustmentCost_Medium::Main();
+//LintSolution1::MinimumSizeSubarraySum_Medium::Main();
+//LintSolution1::MinimumSubarray_Easy::Main();
+//LintSolution1::NextPermutation_Medium::Main();
+//LintSolution1::NextPermutationII_Medium::Main();
 
 
 	// Runtime end marker
