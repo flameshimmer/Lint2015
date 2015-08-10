@@ -123,11 +123,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 // 8/10/2015
 //LintSolution1::MaximumSubarray_Easy::Main();
-//LintSolution1::MaximumSubarrayDifference_Medium::Main();
 //LintSolution1::MaximumSubarrayII_Medium::Main();
 //LintSolution1::MaximumSubarrayIII_Hard::Main();
+//LintSolution1::MaximumSubarrayDifference_Medium::Main();
 //LintSolution1::MergeSortedArrayII_Easy::Main();
-//LintSolution1::MinimumAdjustmentCost_Medium::Main();
+LintSolution1::MinimumAdjustmentCost_Medium::Main();
 //LintSolution1::MinimumSizeSubarraySum_Medium::Main();
 //LintSolution1::MinimumSubarray_Easy::Main();
 //LintSolution1::NextPermutation_Medium::Main();
