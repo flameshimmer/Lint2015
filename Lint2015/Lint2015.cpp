@@ -127,7 +127,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 // 8/11/2015
 //LintSolution1::NumberOfAirplanesInTheSky_Medium::Main();
-//LintSolution1::NumberOfIslandsII_Hard::Main();
+LintSolution1::NumberOfIslandsII_Hard::Main();
 //LintSolution1::NutsAndBoltsProblem_Medium::Main();
 //LintSolution1::PartitionArraybyOddAndEven_Easy::Main();
 //LintSolution1::PermutationIndex_Easy::Main();
