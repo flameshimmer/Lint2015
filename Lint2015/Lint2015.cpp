@@ -11,16 +11,6 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-	//LintSolution1::NumberOfAirplanesInTheSky_Medium::Main();
-	//LintSolution1::NumberOfIslandsII_Hard::Main();
-	//LintSolution1::NutsAndBoltsProblem_Medium::Main();
-	//LintSolution1::PartitionArraybyOddAndEven_Easy::Main();
-	//LintSolution1::PermutationIndex_Easy::Main();
-	//LintSolution1::PermutationIndexII_Medium::Main();
-	//LintSolution1::PostOfficeProblem_Hard::Main();
-	//LintSolution1::PreviousPermuation_Medium::Main();
-	//LintSolution1::PrintNumbersbyRecursion_Medium::Main();
-	//LintSolution1::Rehashing_Medium::Main();
 	//LintSolution1::RemoveNodeInBinarySearchTree_Hard::Main();
 	//LintSolution1::RotateString_Easy::Main();
 	//LintSolution1::RouteBetweenTwoNodesInGraph_Medium::Main();
@@ -31,6 +21,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::SlidingWindowMedian_Hard::Main();
 	//LintSolution1::SortColorsII_Medium::Main();
 	//LintSolution1::SortLettersbyCase_Medium::Main();
+
 	//LintSolution1::SpaceReplacement_Easy::Main();
 	//LintSolution1::SubarraySum_Easy::Main();
 	//LintSolution1::SubarraySumClosest_Medium::Main();
@@ -41,6 +32,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::ThreeSumClosest_Medium::Main();
 	//LintSolution1::TopologicalSorting_Medium::Main();
 	//LintSolution1::TrappingRainWaterII_Hard::Main();
+	
 	//LintSolution1::TriangleCount_Hard::Main();
 	//LintSolution1::UglyNumber_Medium::Main();
 	//LintSolution1::UpdateBits_Medium::Main();
@@ -122,16 +114,28 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::MaxTree_Hard::Main();
 
 // 8/10/2015
-//LintSolution1::MaximumSubarray_Easy::Main();
-//LintSolution1::MaximumSubarrayII_Medium::Main();
-//LintSolution1::MaximumSubarrayIII_Hard::Main();
-//LintSolution1::MaximumSubarrayDifference_Medium::Main();
-//LintSolution1::MergeSortedArrayII_Easy::Main();
-LintSolution1::MinimumAdjustmentCost_Medium::Main();
-//LintSolution1::MinimumSizeSubarraySum_Medium::Main();
-//LintSolution1::MinimumSubarray_Easy::Main();
-//LintSolution1::NextPermutation_Medium::Main();
-//LintSolution1::NextPermutationII_Medium::Main();
+	//LintSolution1::MaximumSubarray_Easy::Main();
+	//LintSolution1::MaximumSubarrayII_Medium::Main();
+	//LintSolution1::MaximumSubarrayIII_Hard::Main();
+	//LintSolution1::MaximumSubarrayDifference_Medium::Main();
+	//LintSolution1::MergeSortedArrayII_Easy::Main();
+	//LintSolution1::MinimumAdjustmentCost_Medium::Main();??????
+	//LintSolution1::MinimumSizeSubarraySum_Medium::Main();
+	//LintSolution1::MinimumSubarray_Easy::Main();
+	//LintSolution1::NextPermutation_Medium::Main();
+	//LintSolution1::NextPermutationII_Medium::Main();
+
+// 8/11/2015
+//LintSolution1::NumberOfAirplanesInTheSky_Medium::Main();
+//LintSolution1::NumberOfIslandsII_Hard::Main();
+//LintSolution1::NutsAndBoltsProblem_Medium::Main();
+//LintSolution1::PartitionArraybyOddAndEven_Easy::Main();
+//LintSolution1::PermutationIndex_Easy::Main();
+//LintSolution1::PermutationIndexII_Medium::Main();
+//LintSolution1::PostOfficeProblem_Hard::Main();
+//LintSolution1::PreviousPermuation_Medium::Main();
+//LintSolution1::PrintNumbersbyRecursion_Medium::Main();
+//LintSolution1::Rehashing_Medium::Main();
 
 
 	// Runtime end marker
