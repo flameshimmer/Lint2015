@@ -1,4 +1,4 @@
-
+﻿
 #include "stdafx.h"
 #include "LintSolution1.h"
 
@@ -11,18 +11,7 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-	//LintSolution1::RemoveNodeInBinarySearchTree_Hard::Main();
-	//LintSolution1::RotateString_Easy::Main();
-	//LintSolution1::RouteBetweenTwoNodesInGraph_Medium::Main();
-	//LintSolution1::SearchATwoDMatrixII_Medium::Main();
-	//LintSolution1::SearchRangeInBinarySearchTree_Medium::Main();
-	//LintSolution1::SingleNumberIII_Medium::Main();
-	//LintSolution1::Singleton_Easy::Main();
-	//LintSolution1::SlidingWindowMedian_Hard::Main();
-	//LintSolution1::SortColorsII_Medium::Main();
-	//LintSolution1::SortLettersbyCase_Medium::Main();
 
-	//LintSolution1::SpaceReplacement_Easy::Main();
 	//LintSolution1::SubarraySum_Easy::Main();
 	//LintSolution1::SubarraySumClosest_Medium::Main();
 	//LintSolution1::SubarraySumII_Hard::Main();
@@ -31,9 +20,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::TheSmallestDifference_Medium::Main();
 	//LintSolution1::ThreeSumClosest_Medium::Main();
 	//LintSolution1::TopologicalSorting_Medium::Main();
-	//LintSolution1::TrappingRainWaterII_Hard::Main();
-	
+	//LintSolution1::TrappingRainWaterII_Hard::Main();	
 	//LintSolution1::TriangleCount_Hard::Main();
+
 	//LintSolution1::UglyNumber_Medium::Main();
 	//LintSolution1::UpdateBits_Medium::Main();
 	//LintSolution1::WoodCut_Medium::Main();
@@ -126,17 +115,31 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::NextPermutationII_Medium::Main();
 
 // 8/11/2015
-//LintSolution1::NumberOfAirplanesInTheSky_Medium::Main();
-LintSolution1::NumberOfIslandsII_Hard::Main();
-//LintSolution1::NutsAndBoltsProblem_Medium::Main();
-//LintSolution1::PartitionArraybyOddAndEven_Easy::Main();
-//LintSolution1::PermutationIndex_Easy::Main();
-//LintSolution1::PermutationIndexII_Medium::Main();
-//LintSolution1::PostOfficeProblem_Hard::Main();
-//LintSolution1::PreviousPermuation_Medium::Main();
-//LintSolution1::PrintNumbersbyRecursion_Medium::Main();
-//LintSolution1::Rehashing_Medium::Main();
+	//LintSolution1::NumberOfAirplanesInTheSky_Medium::Main();
 
+// 8/12/2015
+	//LintSolution1::NumberOfIslandsII_Hard::Main();
+	//LintSolution1::NutsAndBoltsProblem_Medium::Main();
+	//LintSolution1::PartitionArraybyOddAndEven_Easy::Main();
+	//LintSolution1::PermutationIndex_Easy::Main();
+	//LintSolution1::PermutationIndexII_Medium::Main();????????
+	//LintSolution1::RotateString_Easy::Main();
+	//LintSolution1::PreviousPermuation_Medium::Main();
+	//LintSolution1::PrintNumbersbyRecursion_Medium::Main();
+	//LintSolution1::Rehashing_Medium::Main();
+	//LintSolution1::RemoveNodeInBinarySearchTree_Hard::Main();
+
+// 8/13/2015
+//LintSolution1::PostOfficeProblem_Hard::Main();
+//LintSolution1::RouteBetweenTwoNodesInGraph_Medium::Main();
+//LintSolution1::SearchATwoDMatrixII_Medium::Main();
+//LintSolution1::SearchRangeInBinarySearchTree_Medium::Main();
+//LintSolution1::SingleNumberIII_Medium::Main();
+//LintSolution1::Singleton_Easy::Main();
+//LintSolution1::SlidingWindowMedian_Hard::Main();
+//LintSolution1::SortColorsII_Medium::Main();
+//LintSolution1::SortLettersbyCase_Medium::Main();
+//LintSolution1::SpaceReplacement_Easy::Main();
 
 	// Runtime end marker
     clock_t end = clock();

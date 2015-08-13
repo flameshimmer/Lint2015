@@ -48,23 +48,24 @@ namespace LintSolution1
 			unordered_map<int, int> parent;
 			for (auto node : nodes)
 			{
+				int pA = findParent(parent, node->label);
 				for (auto child : node->neighbors)
 				{
-					int pA = findParent(parent, node->label);
+					pA = findParent(parent, node->label);
 					int pB = findParent(parent, child->label);					
-					if (pA < pB) { parent[pB] = pA; }
-					else if (pB < pA) { parent[pA] = pB; }
+					parent[max(pA, pB)] = min(pA, pB);
 				}
 			}
 
-			unordered_map<int, vector<int>> comp;
+			// Create a map of components, push each nodes into their belonging components
+			unordered_map<int, vector<int>> comp; // component root node Id, component nodes array
 			for (auto node : nodes)
 			{
 				int p = findParent(parent, node->label);
 				comp[p].push_back(node->label);
 			}
 
-
+			// Sort the nodes inside each group to satisfy the output criteria
 			for (auto p : comp)
 			{
 				sort(p.second.begin(), p.second.end());

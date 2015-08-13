@@ -56,6 +56,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Profile>true</Profile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -186,6 +187,7 @@
     <ClCompile Include="LinkedListCycleII_Hard.cpp" />
     <ClCompile Include="LinkedListCycle_Medium.cpp" />
     <ClCompile Include="Lint2015.cpp" />
+    <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix_Medium.cpp" />
     <ClCompile Include="LongestCommonSubsequence_Medium.cpp" />
     <ClCompile Include="LongestCommonSubstring_Medium.cpp" />
