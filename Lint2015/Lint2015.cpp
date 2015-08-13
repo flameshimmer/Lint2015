@@ -11,18 +11,6 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-
-	//LintSolution1::SubarraySum_Easy::Main();
-	//LintSolution1::SubarraySumClosest_Medium::Main();
-	//LintSolution1::SubarraySumII_Hard::Main();
-	//LintSolution1::SubmatrixSum_Medium::Main();
-	//LintSolution1::Subtree_Easy::Main();
-	//LintSolution1::TheSmallestDifference_Medium::Main();
-	//LintSolution1::ThreeSumClosest_Medium::Main();
-	//LintSolution1::TopologicalSorting_Medium::Main();
-	//LintSolution1::TrappingRainWaterII_Hard::Main();	
-	//LintSolution1::TriangleCount_Hard::Main();
-
 	//LintSolution1::UglyNumber_Medium::Main();
 	//LintSolution1::UpdateBits_Medium::Main();
 	//LintSolution1::WoodCut_Medium::Main();
@@ -108,7 +96,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::MaximumSubarrayIII_Hard::Main();
 	//LintSolution1::MaximumSubarrayDifference_Medium::Main();
 	//LintSolution1::MergeSortedArrayII_Easy::Main();
-	//LintSolution1::MinimumAdjustmentCost_Medium::Main();??????
+	//LintSolution1::MinimumAdjustmentCost_Medium::Main();============??????
 	//LintSolution1::MinimumSizeSubarraySum_Medium::Main();
 	//LintSolution1::MinimumSubarray_Easy::Main();
 	//LintSolution1::NextPermutation_Medium::Main();
@@ -122,7 +110,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::NutsAndBoltsProblem_Medium::Main();
 	//LintSolution1::PartitionArraybyOddAndEven_Easy::Main();
 	//LintSolution1::PermutationIndex_Easy::Main();
-	//LintSolution1::PermutationIndexII_Medium::Main();????????
+	//LintSolution1::PermutationIndexII_Medium::Main();=====================????????
 	//LintSolution1::RotateString_Easy::Main();
 	//LintSolution1::PreviousPermuation_Medium::Main();
 	//LintSolution1::PrintNumbersbyRecursion_Medium::Main();
@@ -130,16 +118,30 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::RemoveNodeInBinarySearchTree_Hard::Main();
 
 // 8/13/2015
-//LintSolution1::PostOfficeProblem_Hard::Main();
-//LintSolution1::RouteBetweenTwoNodesInGraph_Medium::Main();
-//LintSolution1::SearchATwoDMatrixII_Medium::Main();
-//LintSolution1::SearchRangeInBinarySearchTree_Medium::Main();
-//LintSolution1::SingleNumberIII_Medium::Main();
-//LintSolution1::Singleton_Easy::Main();
-//LintSolution1::SlidingWindowMedian_Hard::Main();
-//LintSolution1::SortColorsII_Medium::Main();
-//LintSolution1::SortLettersbyCase_Medium::Main();
-//LintSolution1::SpaceReplacement_Easy::Main();
+	//LintSolution1::PostOfficeProblem_Hard::Main(); //==========> did not do n^2 solve
+	//LintSolution1::RouteBetweenTwoNodesInGraph_Medium::Main();
+	//LintSolution1::SearchATwoDMatrixII_Medium::Main();
+	//LintSolution1::SearchRangeInBinarySearchTree_Medium::Main();
+	//LintSolution1::SingleNumberIII_Medium::Main();
+	//LintSolution1::Singleton_Easy::Main();
+	//LintSolution1::SlidingWindowMedian_Hard::Main();
+	//LintSolution1::SortColors_Medium::Main();
+	//LintSolution1::SortColorsII_Medium::Main();
+	//LintSolution1::SortLettersbyCase_Medium::Main();
+	//LintSolution1::SpaceReplacement_Easy::Main();
+
+// 8/14/2015
+//LintSolution1::SubarraySum_Easy::Main();
+//LintSolution1::SubarraySumClosest_Medium::Main();
+//LintSolution1::SubarraySumII_Hard::Main();
+//LintSolution1::SubmatrixSum_Medium::Main();
+//LintSolution1::Subtree_Easy::Main();
+//LintSolution1::TheSmallestDifference_Medium::Main();
+//LintSolution1::ThreeSumClosest_Medium::Main();
+//LintSolution1::TopologicalSorting_Medium::Main();
+//LintSolution1::TrappingRainWaterII_Hard::Main();	
+//LintSolution1::TriangleCount_Hard::Main();
+
 
 	// Runtime end marker
     clock_t end = clock();
