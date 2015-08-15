@@ -14,6 +14,7 @@
 #include <queue> // for priority queue
 #include <utility> // for make_pair
 #include <functional> // for priority queue comparator function
+#include <numeric> // for paritial_sum
 
 #include <windows.h>
 #include <vector>

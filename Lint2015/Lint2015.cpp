@@ -11,11 +11,6 @@ int _tmain(int argc, _TCHAR* argv[])
     // Runtime begin marker start
     clock_t begin = clock();
 
-	//LintSolution1::UglyNumber_Medium::Main();
-	//LintSolution1::UpdateBits_Medium::Main();
-	//LintSolution1::WoodCut_Medium::Main();
-
-
 // 7/28/2015
 	//LintSolution1::AssignmentOperatorOverloading(CPlusPlusOnly)_Medium::Main();
 
@@ -131,9 +126,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//LintSolution1::SpaceReplacement_Easy::Main();
 
 // 8/14/2015
-//LintSolution1::SubarraySum_Easy::Main();
-//LintSolution1::SubarraySumClosest_Medium::Main();
-//LintSolution1::SubarraySumII_Hard::Main();
+	//LintSolution1::SubarraySum_Easy::Main();
+	//LintSolution1::SubarraySumII_Hard::Main();
+	//LintSolution1::SubarraySumClosest_Medium::Main();
+
+// 8/15/2015
 //LintSolution1::SubmatrixSum_Medium::Main();
 //LintSolution1::Subtree_Easy::Main();
 //LintSolution1::TheSmallestDifference_Medium::Main();
@@ -141,6 +138,9 @@ int _tmain(int argc, _TCHAR* argv[])
 //LintSolution1::TopologicalSorting_Medium::Main();
 //LintSolution1::TrappingRainWaterII_Hard::Main();	
 //LintSolution1::TriangleCount_Hard::Main();
+//LintSolution1::UglyNumber_Medium::Main();
+//LintSolution1::UpdateBits_Medium::Main();
+//LintSolution1::WoodCut_Medium::Main();
 
 
 	// Runtime end marker
