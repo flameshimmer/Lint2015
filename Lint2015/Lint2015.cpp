@@ -136,11 +136,11 @@ int _tmain(int argc, _TCHAR* argv[])
 //LintSolution1::TheSmallestDifference_Medium::Main();
 //LintSolution1::ThreeSumClosest_Medium::Main();
 //LintSolution1::TopologicalSorting_Medium::Main();
-//LintSolution1::TrappingRainWaterII_Hard::Main();	
 //LintSolution1::TriangleCount_Hard::Main();
 //LintSolution1::UglyNumber_Medium::Main();
 //LintSolution1::UpdateBits_Medium::Main();
 //LintSolution1::WoodCut_Medium::Main();
+LintSolution1::TrappingRainWaterII_Hard::Main();
 
 
 	// Runtime end marker
